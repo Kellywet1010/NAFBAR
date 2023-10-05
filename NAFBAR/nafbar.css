@@ -1,0 +1,38 @@
+nav{
+    background-color: blue;
+    padding: 12px;
+    display: flex;
+    gap: 50px;
+}
+body{
+    margin: 0;
+}
+nav li, a{
+    color: white;
+    text-decoration: none;
+    list-style: none;
+}
+nav li a:hover{
+    padding: 5px;
+    background-color: blueviolet;
+    border-bottom-left-radius: 9px;
+    border-bottom-right-radius: 9px;
+    color: brown;
+    border:2px solid white;
+
+}
+nav li a:active{
+    background-color: white;
+}
+.bg{
+    background: url(/378200024_10161251454442122_1325480860997159686_n.jpg);
+    padding: 200px;
+}
+h1{
+    background-color: red;
+    color: white;
+}
+.btn1{
+    display: flex;
+    padding: 12px;
+}
